@@ -7,7 +7,9 @@ Few areas of analysis are as predictive and close to deterministic as demographi
 
 ## Aspects of demographic analysis:
 
+### Data Sources ###
 
+https://population.un.org/wpp/
 
 
 **Data:**
@@ -20,3 +22,4 @@ Few areas of analysis are as predictive and close to deterministic as demographi
 * Relevant population summary stats include: 
 ** % working age supporting under working age,
 ** % working age supporting over working age.
+
