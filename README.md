@@ -7,14 +7,16 @@ Few areas of analysis are as predictive and close to deterministic as demographi
 
 ## Aspects of demographic analysis:
 
+
+
+
 **Data:**
-* "working age" is defined by lower limit, upper limit
-* age data is list of population size male, female
-* replacement rate is constant: 2.1
-* fertility rate is time series of x.y
-* relevant summary stats include: 
-** % working age supporting young ones
-** % working age supporting above working age 
--
 
+* Population replacement rate is `2.1`.
+* Working age is defined by `wa_min = 18`, `wa_max = 65`, where current values are set by widely accepted definition.
 
+* Population age data is a list of population counts `[male, female]` by year of birth.
+* Populaiton fertility rate is a historical time series `[fr_m, fr_fm]` up to and including the current year.
+* Relevant population summary stats include: 
+** % working age supporting under working age,
+** % working age supporting over working age.
