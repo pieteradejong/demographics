@@ -32,8 +32,11 @@ def determine_generation(yob):
 
 def main():
     yob = int(input("What is your year of birth? "))
-
-    # validate input
+    # yob_input = input("What is your year of birth? ")
+    # try:
+    #     yob = int(yob_input)
+    # except ValueError:
+    #     print("Input must be a valid year number.")
     
     generation = determine_generation(yob)
     print(f"That makes you part of the generation: {generation}.")
