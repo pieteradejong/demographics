@@ -8,4 +8,15 @@ print(f"Created dataframe from csv: {rows} rows, {cols} cols.")
 columns = [0]+list(range(4,36))
 f_rates = df.iloc[:, columns]
 
+print(f"df df_rates:\n\n")
 print(f_rates)
+
+print(f"df column 0:\n\n")
+print(f_rates.iloc[:,0])
+
+print(f"df column 1:\n\n")
+print(f_rates.iloc[:,1])
+
+
+
+

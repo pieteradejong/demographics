@@ -23,3 +23,18 @@ https://population.un.org/wpp/
 ** % working age supporting under working age,
 ** % working age supporting over working age.
 
+### Data Processing ###
+
+Before visualization, we need several prepped data items.
+
+
+
+
+### Data Projection ###
+
+
+
+### Data Visualization ###
+
+
+
