@@ -8,7 +8,6 @@ Boomers: 1946 - (including) 1964
 Silent Generation: 1928 - (including) 1945
 """
 
-
 def determine_generation(yob):
     generation = "Undetermined"
     if not 1928 <= yob <= 2012:
@@ -31,15 +30,12 @@ def determine_generation(yob):
     return generation
 
 def main():
-    yob = int(input("What is your year of birth? "))
-    # yob_input = input("What is your year of birth? ")
-    # try:
-    #     yob = int(yob_input)
-    # except ValueError:
-    #     print("Input must be a valid year number.")
-    
-    generation = determine_generation(yob)
-    print(f"That makes you part of the generation: {generation}.")
+    try:
+        yob_input = int(input("What is your year of birth? " ))
+        generation = determine_generation(yob_input)
+        print(f"That makes you part of the generation: {generation}.")
+    except ValueError:
+        print("Input must be a valid year number.")
 
 if __name__ == "__main__":
     main()
