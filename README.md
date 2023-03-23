@@ -40,7 +40,6 @@ Before visualization, we need several prepped data items.
 	* for any given year after the current one, a list of population counts male/female for each bucket;
 	* for any given year before the current one, the number of women times the fertility rate.
 
-Current population counts per age bucket, 
-
 ### Data Visualization
 
+Using either `plotly` or `matplotlib`.
