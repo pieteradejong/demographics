@@ -5,9 +5,15 @@ _Analysis of Global Demographics_
 **Motivation**: I'm deeply interested in understanding the future, and seeing what's coming.
 Few areas of analysis are as predictive and close to deterministic as demographics.
 
+
+## Generations
+
+What generation are you part of? Run `python generations.py`, put in your year of birth and be told.
+
+
 ## Aspects of demographic analysis:
 
-### Data Sources ###
+### Data Sources
 
 https://population.un.org/wpp/
 
@@ -23,18 +29,13 @@ https://population.un.org/wpp/
 ** % working age supporting under working age,
 ** % working age supporting over working age.
 
-### Data Processing ###
+### Data Processing
 
 Before visualization, we need several prepped data items.
 
 
+### Data Projection
 
 
-### Data Projection ###
-
-
-
-### Data Visualization ###
-
-
+### Data Visualization
 
