@@ -26,8 +26,8 @@ https://population.un.org/wpp/
 * Population age data is a list of population counts `[male, female]` by year of birth.
 * Populaiton fertility rate is a historical time series `[....,fr_i,...]` up to and including the current year.
 * Relevant population summary stats include: 
-** % working age supporting under working age,
-** % working age supporting over working age.
+	* % working age supporting under working age,
+	* % working age supporting over working age.
 
 ### Data Processing
 
@@ -37,8 +37,8 @@ Before visualization, we need several prepped data items.
 ### Data Projection
 
 * Projections consist of:
- * for any given year after the current one, a list of population counts male/female for each bucket;
- * for any given year before the current one, the number of women times the fertility rate.
+	* for any given year after the current one, a list of population counts male/female for each bucket;
+	* for any given year before the current one, the number of women times the fertility rate.
 
 Current population counts per age bucket, 
 
